@@ -21,7 +21,7 @@ function formatSearch(query) {
   } catch (e) { }
 
   try {
-    const url = new URL(`http://${query}`)
+    const url = new URL(`http://${query}/5.pdf`)
     if (url.hostname.includes('.')) return url.toString()
   } catch (e) { }
 
